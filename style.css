@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+.first-col, .second-col {
+    width: 30%;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.text-box-one {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px 5px;
+}
+
+.text-box-two {
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px 5px;
+}
+
+.text-box-three {
+    background-color: pink;
+    padding: 20px;
+    margin: 20px 5px;
+}
