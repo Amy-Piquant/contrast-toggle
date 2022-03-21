@@ -4,6 +4,24 @@ body {
     line-height: 20px;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 0 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
 .first-col, .second-col {
     width: 30%;
     display: inline-block;
