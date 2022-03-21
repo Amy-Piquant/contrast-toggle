@@ -16,18 +16,23 @@ body {
     background-color: blue;
     padding: 20px;
     margin: 20px 5px;
+    position: relative;
 }
 
 .text-box-two {
     background-color: rgb(102, 255, 0);
     padding: 20px;
     margin: 20px 5px;
+    position: relative;
+
 }
 
 .text-box-three {
     background-color: pink;
     padding: 20px;
     margin: 20px 5px;
+    position: relative;
+
 }
 
 .text-box-one.contrast-mode {
@@ -35,9 +40,15 @@ body {
 }
 
 .text-box-two.contrast-mode {
-    background-color: rgb(89, 165, 38);
+    background-color: #008A00;
 }
 
 .text-box-three.contrast-mode {
     color: black;
+}
+
+.comp-btn {
+    position: absolute;
+    top: 42px;
+    right: 30px;
 }
